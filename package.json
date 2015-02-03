@@ -2,7 +2,7 @@
   "name": "backmeup",
   "description": "Common functions for local or over ssh backup. Not a full nodejs implementation. Use shell exec",
   "keywords": ["backup", "ssh"],
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Pierre Sauvage <pierre@adaltas.com>",
   "licenses": [{
     "type": "BSD",
