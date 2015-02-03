@@ -1,0 +1,7 @@
+.*
+/lib/index.js
+/test/backups
+/test/dataset-tmp
+/node_modules
+!.travis.yml
+!.gitignore
