@@ -31,8 +31,8 @@
     "node": ">= 0.6.0"
   },
   "scripts": {
-    "preinstall": "./node_modules/.bin/coffee -b -o lib src",
-    "pretest": "npm install && rm -rf ./test/dataset-tmp && cp -r ./test/dataset ./test/dataset-tmp/",
+    "coffee": "./node_modules/.bin/coffee -b -o lib src",
+    "pretest": "./node_modules/.bin/coffee -b -o lib src && rm -rf ./test/dataset-tmp && cp -r ./test/dataset ./test/dataset-tmp/",
     "test": "./node_modules/.bin/mocha --compilers coffee:coffee-script/register --reporter dot test/*"
   }
 }
